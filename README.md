@@ -32,16 +32,24 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+
 module exp2(a,b,c,d,f1,w,x,y,z,f2);
+
 input a,b,c,d,w,x,y,z;
+
 output f1,f2;
+
 assign f1=((~b&~d)| (~a&b&d)| (a&b&~c));
+
 assign f2=((~y&z)|(x&y)|(w&y));
+
 endmodule 
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by:Deepika R RegisterNumber:25016530
+Developed by:Deepika R
+
+RegisterNumber:25016530
 
 
 **RTL realization**
